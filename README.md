@@ -1,85 +1,264 @@
-# Resume Narrative Studio — 开源 Skill / Open Source
+<div align="center">
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+# Resume Narrative Studio
 
-**Human-led, evidence-grounded resume writing and adaptive layout design.**
+### 让经历被看见，让能力被理解。
 
-使用自然语言与已授权资料，完成事实整理、目标读者定位、分阶段访谈、简历文案编辑、12种版面结构以及排版审查；用户仍掌握个人定位、照片使用、事实判断与公开发布决策。
+**从一段说不清的自我介绍，到一份有证据、有个性、有设计感的简历。**
 
-**Quick links:** [Interactive Design Lab](style-gallery.html) · [Photo Layout Comparison](photo-policy-gallery.html) · [Skill Guide](SKILL.md) · [License](LICENSE) · [Security](SECURITY.md) · [Contribution Guide](CONTRIBUTING.md)
+`讲经历，你来判断；做研究、写文案、排版和审稿，交给 Agent。`
 
-> **重要**：本仓库中的示例人物、邮箱、作品均为虚构。不要提交真实用户的简历、证件、患者信息、私有仓库、授权受限图片或密钥。MIT 许可不自动授予第三方材料、商标和字体文件的权利。
+<br/>
 
-## GitHub Pages（可选）
+[![License: MIT](https://img.shields.io/badge/License-MIT-435A65?style=flat-square)](LICENSE)
+![Version](https://img.shields.io/badge/Version-v1.3.0-2D746D?style=flat-square)
+![Layouts](https://img.shields.io/badge/Layouts-12-D99466?style=flat-square)
+![Palettes](https://img.shields.io/badge/Palettes-12-E8BC5A?style=flat-square)
+![Built for](https://img.shields.io/badge/Built%20for-Humans%20%2B%20Agents-7173A5?style=flat-square)
 
-发布为公开仓库后，可在仓库 Settings → Pages 中选择 Deploy from a branch → `main` / `(root)`。站点首页是 `index.html`，无需构建工具。GitHub Pages 是否启用需要由仓库所有者自行核验；仓库公开不等于网站已经上线。
+**[🎨 风格实验室](style-gallery.html) · [🪪 头像位置实验室](photo-policy-gallery.html) · [📖 Skill 入口](SKILL.md) · [🧭 使用指南](#-三分钟上手)**
+
+<sub>Open source · 中文优先 · 人类始终拥有最终决定权</sub>
+
+</div>
 
 ---
 
-# Resume Narrative Studio v1.3.0 · Design Lab
+> **你做过很多事，但简历上只有“参与过”“负责过”“具备较强能力”？**
+>
+> 简历里最难的部分，往往不是写下经历，而是找到那些能让读者看懂你的人、你的判断和你的贡献的证据。
+>
+> Resume Narrative Studio 会先听你讲，再读你提供的材料，然后陪你决定：**哪些值得写、为什么值得写、怎样写得专业且有吸引力。**
 
-在 v1.0 的八阶段共创工作流基础上，重构视觉子系统。保留访谈、事实审计、定位、内容编译、用户审批和反馈机制；不改变用户已有内容资产。
+## ✨ 它能帮你做什么？
 
-## 使用
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- `SKILL.md`：Agent 入口；按阶段读取 references。
-- `style-gallery.html`：离线打开，12套实际A4预览，实时选择布局/配色/字体/阅读节奏/纸张，导出HTML或JSON配置。
-- `templates/design_tokens.json`：12个结构、12套配色、7组字体搭配、3个阅读节奏；取消高密度方案。
-- `references/09-design-density-contract.md`：所有风格遵守的阅读密度、可读性及分页规则。
-- `references/10-design-theory-and-benchmarks.md`：DBS理论与历史同构研究、来源与反例。
-- `references/11-structural-layout-patterns.md`：布局与混搭决策，以及旧16个预设的合并、退役依据。
-- `tests/`：自动结构检查、实际浏览器/PDF测试、历史Agent行为压力场景（需独立Agent实测）。
+**01 · 挖掘你的真实经历**
 
-解压到目标 Agent 支持的私有 skill 工作区，或把整个目录交给能读附属文件的 Agent。**不自动安装与覆盖旧版**。用户信息只在其授权工作区流转。例：
+从自然语言、旧简历、项目资料、证书和公开作品中整理事实。只追问缺失的关键信息，不让你从头填几十页表格。
 
-> 使用 Resume Narrative Studio v1.3，先了解我要把简历给谁看，挖掘已有经历，帮我确认定位。到视觉阶段用三种互有区别的结构，不要先限制单页；按密度规范给我选择颜色、字体和留白。
+</td>
+<td width="50%" valign="top">
 
-## 无需安装即可预览
+**02 · 把经历写成能力**
 
-双击 `style-gallery.html`；可断网工作。所有预览资料为虚构数据。该文件不请求外部资源；不会上传数据。实际字体由设备决定。Gallery中的「灰度比较」帮助检查构图，但最终仍需真实纸本渲染。
+围绕目标读者，提炼个人贡献、真实产物和可迁移能力。压低空话、术语堆叠和机械的“AI 味”。
 
-## 代码使用
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**03 · 为你选择合适的版式**
+
+12 种结构 × 12 套配色 × 7 组字体 × 3 档阅读节奏。保留喜欢的布局，单独改颜色和字体。
+
+</td>
+<td valign="top">
+
+**04 · 让你在重要节点做决定**
+
+定位、结构、关键文案、照片、最终版式都可以调整。你的反馈会改变后续写作方法，不只是修改某个词。
+
+</td>
+</tr>
+</table>
+
+## 🎨 Design Lab：简历也可以有自己的审美
+
+一份正式的学术简历，和一份年轻创作者的作品集，不需要长得一样。
+
+**我们按“结构”区分风格，而不是把同一张简历换 12 种颜色。**
+
+| 克制、专业 | 编辑感、个人风格 | 年轻、大胆 |
+| :--- | :--- | :--- |
+| 清晰单栏 | 象牙书信 | 大字海报 |
+| 横向身份区 | 书卷编辑 | 青年拼贴 |
+| 学术索引 | 作品集侧栏 | 工作室网格 |
+| 经历索引 | 核心作品 | 双轨档案 |
+
+上面是风格方向示例，完整的 **12 种布局**见 [Design Lab](style-gallery.html) 和 [版式设计依据](references/11-structural-layout-patterns.md)。
+
+- **想保留布局，只换颜色？** 配色、字体与间距可以独立混搭。
+- **觉得页面太挤？** 全局密度契约禁止靠缩小正文来硬塞内容。
+- **要放头像或作品图？** 根据投递地区、照片许可和阅读场景自动调整。
+- **机器投递？** 使用单栏、无装饰的 ATS 候选版，并另行检查实际解析结果。
+
+> **预览提示**：GitHub 会把 `.html` 当作源文件显示。想操作 Gallery，请下载仓库并在本地浏览器打开 `style-gallery.html`；仓库本身公开不代表 GitHub Pages 已启用。
+
+<details>
+<summary><strong>🧩 这 12 种布局有什么区别？展开看看</strong></summary>
+
+<br/>
+
+| 布局 | 设计特点 |
+| --- | --- |
+| `ats-clean` | 单栏、无头像与装饰的机器投递候选 |
+| `formal-split` | 身份信息横向分区，适合正式简历 |
+| `research-ledger` | 学术型结构索引，重视研究经历 |
+| `ivory-classic` | 书信式居中排版，克制且精致 |
+| `book-editorial` | 出版物式视觉层级，强调阅读节奏 |
+| `studio-grid` | 模块化单双栏与跨栏组织 |
+| `product-feature` | 代表作品前置，突出个人贡献 |
+| `portfolio-rail` | 人物信息侧栏与作品叙事 |
+| `experience-index` | 以时间、经历和角色构成清晰索引 |
+| `bold-poster` | 大字号与强对比，适合创意表达 |
+| `pop-blocks` | 非对称色块，年轻、活泼 |
+| `two-track` | 核心经历与辅助资历的双轨组织 |
+
+头像 A/B 对照和中文正式简历的头像位置规范：[Photo Policy Lab](photo-policy-gallery.html) · [设计依据](references/19-chinese-formal-photo-design.md)。
+
+</details>
+
+## 🚀 三分钟上手
+
+### 路线 A · 直接交给你的 AI Agent
+
+1. 下载或克隆本仓库。
+2. 让 Agent 读取 [`SKILL.md`](SKILL.md) 及其引用的 `references/`、`templates/` 文件。
+3. 用自己的话开始聊天，想补充什么再补充，不需要提前整理出“完美材料”。
+
+**可以直接复制的第一句话：**
+
+```text
+请使用 Resume Narrative Studio 帮我制作一份简历。
+
+我会用自然语言讲经历，也可能补充文件、图片和作品链接。
+请先理解简历要给谁看，帮我挖掘有价值的经历，
+每轮最多问一两个真正影响结果的问题。
+
+先给我定位与内容结构建议，由我决定重要的展示方向。
+再完成专业文案、风格推荐、实际分页检查和成稿审查。
+不要虚构成果，也不要为了塞进一页而缩小字号。
+```
+
+**已有简历？** 直接说「帮我审查这份简历，保留我喜欢的部分，重点改进文案逻辑和版面」，不必重新走完整访谈。
+
+### 路线 B · 先玩一玩模板
+
+零安装即可体验 HTML 预设：
 
 ```bash
-python scripts/render_resume.py --input examples/sample_resume.json --theme book-editorial --palette ivory --font serif-head --rhythm airy --page A4 --output demo.html
-python scripts/build_gallery.py --input examples/sample_resume.json --output style-gallery.html
+git clone https://github.com/caiwu557-ai/resume-narrative-studio.git
+cd resume-narrative-studio
+
+# 在浏览器中打开 style-gallery.html
+# 或使用 Python 3 生成独立 HTML
+python scripts/render_resume.py \
+  --input examples/sample_resume.json \
+  --theme book-editorial \
+  --palette ivory \
+  --font serif-head \
+  --rhythm airy \
+  --output demo.html
+```
+
+完整混搭选项由 [`templates/design_tokens.json`](templates/design_tokens.json) 定义。示例数据均为**虚构人物**，不会带入真实用户信息。
+
+<details>
+<summary><strong>⚙️ PDF 导出、自动检查与开发者命令</strong></summary>
+
+<br/>
+
+Python 静态测试：
+
+```bash
 python tests/test_skill_package.py
+python tests/test_personalization.py
+python tests/test_photo_policy_v13.py
 ```
 
-可选安装浏览器/PDF测试依赖（须由用户自行按平台确认安装）：`playwright`、`PyMuPDF` 及 Chromium。使用已安装浏览器的路径：
+已具备 Playwright、Chromium、PyMuPDF 等可选环境时，可运行 PDF 导出及分页检查：
 
 ```bash
-python scripts/export_pdf.py --input examples/sample_resume.json --theme studio-grid --palette coral --font serif-head --rhythm large --output demo.pdf --chromium /path/to/chromium
-python tests/test_rendering.py --out render-qa --chromium /path/to/chromium
+python scripts/export_pdf.py \
+  --input examples/sample_resume.json \
+  --theme studio-grid \
+  --output demo.pdf \
+  --chromium /path/to/chromium
 ```
 
-Export生成PDF和 `.preflight.json`；自动测量多页稀疏警报并尝试以固定字号分组分页。若返回 `review-required` 则需要手工修订，不能声称通过。`preflight-ok` 也不等于最终视觉验收。`--no-reflow` 关闭自动重分组。自然语言用户可让Agent完成这些工作。
+PDF 预检不是最终人工审美验收；生成 Word 时仍需要独立检查。使用前请参阅 [质量验证报告](VALIDATION_REPORT.md)。
 
-自有履历请另存私有JSON，不修改公开演示数据。`featured:true` / `placement:"support"` 只有用户批准后才放置；不能凭空制造结果或重点。未自动植入照片，图标库以引用与授权规范提供。
+</details>
 
-## 兼容边界
+## 🧠 一套有用户判断机会的工作流
 
-多页打印、任何字体回退、ATS、Word和HTML均须分别实际检验。12种默认预设并非12种录用效果理论；混搭支持所有角色合法的令牌，但未穷举所有组合及平台。已有行为压力场景未由独立Agent执行，详见 `VALIDATION_REPORT.md`。此生成器不替代证据核验或完整Word排版，也不保证ATS系统解析。
+```mermaid
+flowchart LR
+    A["🗣️ 自然语言 / 文件"] --> B["🔎 素材与事实"]
+    B --> C["🎯 读者定位"]
+    C --> D["✍️ 专业文案"]
+    D --> E["🎨 版面设计"]
+    E --> F["🛡️ 审稿与交付"]
+    F -. "反馈与修改" .-> C
+```
 
-2026-11-21 · v1.3.0
+完整 Skill 分为 **8 个阶段**：目标与读者、素材探勘、证据访谈、个人定位、信息架构、文案编译、视觉排版、审稿交付。
 
-## v1.2 个性化扩展
+这 8 步是 Agent 的内部工作流程，**不代表用户要被盘问 8 轮**。已有明确答案时直接推进；关键判断交还给人。
 
-保留 v1.1 的12种版式及全部视觉令牌。新增12种照片适配（含ATS明确禁用）、多链接、精选证据图、单独作品附录、开放图标仓库目录、自定义角色调色与自然语言意图的结构化推荐。现有渲染器支持 `--custom-palette`；`import_asset.py` 需要 Pillow。新演示使用虚构几何资产，不包含真实人像。
+### 为什么要做这件事？
 
-- `personalization-gallery.html`：12种带头像/作品图的真实样例预览，含ATS图像自动省略对照。
-- `references/12` 至 `18`：新增完整理论和执行协议，入口SKILL已接入。
-- `tests/test_personalization.py` 与 `tests/results/personalization-results.json`：本次新能力实测。
-- `tests/agent-pressure-scenarios.md`：交互压力案例，须用真实独立Agent运行，静态测试不能证明行为能力。
+我们从多轮真实简历共创中发现了几个 AI 特别容易犯的错误：
 
-参阅 `SKILL.md` 的新命令。图像授权、真实事实、模板选择与独立审稿仍需Agent按协议执行，程序不会代替人类批准。
+- 把所有资料都堆上去，让简历像项目报告。
+- 写了很多技术名词，却没告诉读者“这个人做出了什么”。
+- 为了证明严谨，把内部审计备注也写进给导师看的正文。
+- 以为换个颜色就是新设计，以为缩小字体就能解决拥挤。
+- 用户已经否决过的方案，下一轮又重新出现。
 
-## v1.3 头像场景规范（新增）
+这个项目把这些纠错经验沉淀为流程、约束、模板和测试。具体方法见 [完整复盘](REVIEW_AND_RATIONALE.md) 和 [低心智损耗协作协议](references/15-low-friction-collaboration.md)。
 
-- [v1.3 头像位置实际比较](photo-policy-gallery.html)；旧 `personalization-gallery.html` 保留v1.2的原创意照片构图并加入显著提示。
+## 🔐 真实、隐私与边界
 
-- 中国大陆**正式真人阅读**简历：在用户/收件方确定需要照片且已授权使用素材时，默认头像在**页眉右上**；`formal-split`、`studio-grid`、`product-feature`、`two-track` 可选三栏式。
-- 创意作品集：保留原先各版式的居中、左栏、彩色人像布局。
-- ATS：永远不放头像；没有照片时没有占位。身份地区通过用户申请场景明确，不通过中文、外貌推断。
-- 12款裁决、引用和风险见 `references/19-chinese-formal-photo-design.md`；新规则和可用位置见 `templates/photo_policy.json`。
-- 实际渲染测试 `python tests/test_photo_policy_v13.py --browser`。本增量旧版 v1.2 不被覆盖。
+- **经历要有依据。** 不虚构论文、奖项、岗位或项目成果；团队与 AI 协作的贡献按实际情况表述。
+- **隐私属于用户。** 不自动公开真实简历、患者资料、证件、私有作品或未经授权的照片。
+- **照片不是必填项。** 正式中文简历、创意作品集、国际投递与 ATS 采用不同规则。
+- **漂亮不等于机器可读。** ATS、Word、PDF 和不同字体环境都需要单独验证。
+- **独立审稿不能靠宣称。** Agent 环境未运行真正的独立审稿，就只能说明已进行自审。
+
+本项目提供方法、模板与示例代码，不承诺录取率、面试邀请或适用于所有机构的自动格式认证。
+
+## 🗂️ 项目地图
+
+```text
+resume-narrative-studio/
+├── SKILL.md                   # Agent 的入口和协作流程
+├── references/                # 写作、设计理论、隐私、审稿规范
+├── templates/                 # 布局、字体、配色与照片策略
+├── scripts/                   # HTML渲染、推荐、导出与检查工具
+├── examples/                  # 虚构演示素材
+├── tests/                     # 自动测试和压力场景
+├── style-gallery.html         # 布局 × 色彩 × 字体实验室
+├── photo-policy-gallery.html  # 头像位置与场景对照
+└── LICENSE                    # MIT
+```
+
+## 🤝 一起把它打磨得更好
+
+欢迎通过 [Issues](https://github.com/caiwu557-ai/resume-narrative-studio/issues) 提交真实的问题，例如：
+
+- 「这个模板很好看，但长经历会出现奇怪的分页。」
+- 「我投的是某个专业岗位，现有术语和章节不合适。」
+- 「我有一套更好的字体/配色/图标组合。」
+- 「某段 AI 文案看起来正确，但完全不像真人写的。」
+
+提交前请移除真实个人联系方式、证书编号、患者资料及未经授权的作品图。参与方式见 [`CONTRIBUTING.md`](CONTRIBUTING.md)，安全问题见 [`SECURITY.md`](SECURITY.md)。
+
+项目采用 [MIT License](LICENSE)。第三方图片、字体、商标及图标仍须遵守各自授权。
+
+---
+
+<div align="center">
+
+**你的经历值得被认真理解。**
+
+<sub>Resume Narrative Studio · Human-led. Evidence-grounded. Beautifully told.</sub>
+
+**[⬆ 回到顶部](#resume-narrative-studio)**
+
+</div>

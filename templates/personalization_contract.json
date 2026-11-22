@@ -1,0 +1,70 @@
+{
+  "version": "1.3.0",
+  "usage": "Agent internal state; no need to ask user every field. Null means unknown, not mandatory.",
+  "brief": {
+    "audience": null,
+    "opportunity": null,
+    "country_or_rules": null,
+    "channel": "unknown",
+    "focus": "general",
+    "tone": "formal",
+    "volume": "medium",
+    "visual_evidence": "none",
+    "photo": "undecided",
+    "layout_lock": null,
+    "language": null,
+    "deadline": null,
+    "audience_profile": null,
+    "photo_requested": null
+  },
+  "decisions": [
+    {
+      "id": "D-example",
+      "field": "layout",
+      "value": "book-editorial",
+      "status": "tentative",
+      "scope": "current-application",
+      "source": "example only",
+      "rationale": "candidate for user review"
+    }
+  ],
+  "decision_states": [
+    "locked",
+    "tentative",
+    "delegated",
+    "unknown",
+    "rejected"
+  ],
+  "approved_design": {
+    "theme": null,
+    "palette": null,
+    "custom_palette": null,
+    "font": null,
+    "rhythm": null,
+    "page": null,
+    "photo_asset_id": null,
+    "icons": null,
+    "photo_mode": "auto",
+    "photo_audience_profile": null,
+    "photo_placement_locked": false
+  },
+  "assets": [],
+  "asset_fields": [
+    "asset_id",
+    "source",
+    "rights",
+    "allowed_audience",
+    "claim_id",
+    "contribution",
+    "route",
+    "caption",
+    "alt",
+    "approval"
+  ],
+  "authoring_mode": "collaborative",
+  "review_status": "not-run",
+  "review_receipts": [],
+  "question_log": [],
+  "feedback_log": [],
+  "release_approved": false
+}

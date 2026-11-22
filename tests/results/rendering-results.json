@@ -1,0 +1,723 @@
+[
+  {
+    "theme": "ats-clean",
+    "case": "default",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.92
+    ],
+    "text_spans_per_page": [
+      42
+    ],
+    "pass": true
+  },
+  {
+    "theme": "ats-clean",
+    "case": "long",
+    "pages": 3,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.93,
+      0.88,
+      0.88
+    ],
+    "text_spans_per_page": [
+      57,
+      55,
+      55
+    ],
+    "pass": true
+  },
+  {
+    "theme": "ats-clean",
+    "case": "mix",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.92
+    ],
+    "text_spans_per_page": [
+      42
+    ],
+    "pass": true
+  },
+  {
+    "theme": "formal-split",
+    "case": "default",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.77
+    ],
+    "text_spans_per_page": [
+      42
+    ],
+    "pass": true
+  },
+  {
+    "theme": "formal-split",
+    "case": "long",
+    "pages": 3,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.81,
+      0.9,
+      0.61
+    ],
+    "text_spans_per_page": [
+      59,
+      66,
+      44
+    ],
+    "pass": true
+  },
+  {
+    "theme": "formal-split",
+    "case": "mix",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.89
+    ],
+    "text_spans_per_page": [
+      42
+    ],
+    "pass": true
+  },
+  {
+    "theme": "research-ledger",
+    "case": "default",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.83
+    ],
+    "text_spans_per_page": [
+      50
+    ],
+    "pass": true
+  },
+  {
+    "theme": "research-ledger",
+    "case": "long",
+    "pages": 5,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.24,
+      0.77,
+      0.77,
+      0.77,
+      0.4
+    ],
+    "text_spans_per_page": [
+      13,
+      56,
+      56,
+      56,
+      28
+    ],
+    "pass": true
+  },
+  {
+    "theme": "research-ledger",
+    "case": "mix",
+    "pages": 2,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.23,
+      0.78
+    ],
+    "text_spans_per_page": [
+      13,
+      41
+    ],
+    "pass": true
+  },
+  {
+    "theme": "ivory-classic",
+    "case": "default",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.9
+    ],
+    "text_spans_per_page": [
+      42
+    ],
+    "pass": true
+  },
+  {
+    "theme": "ivory-classic",
+    "case": "long",
+    "pages": 4,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.83,
+      0.77,
+      0.77,
+      0.58
+    ],
+    "text_spans_per_page": [
+      49,
+      48,
+      48,
+      36
+    ],
+    "pass": true
+  },
+  {
+    "theme": "ivory-classic",
+    "case": "mix",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.87
+    ],
+    "text_spans_per_page": [
+      43
+    ],
+    "pass": true
+  },
+  {
+    "theme": "book-editorial",
+    "case": "default",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.81
+    ],
+    "text_spans_per_page": [
+      49
+    ],
+    "pass": true
+  },
+  {
+    "theme": "book-editorial",
+    "case": "long",
+    "pages": 3,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.86,
+      0.8,
+      0.8
+    ],
+    "text_spans_per_page": [
+      64,
+      60,
+      60
+    ],
+    "pass": true
+  },
+  {
+    "theme": "book-editorial",
+    "case": "mix",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.88
+    ],
+    "text_spans_per_page": [
+      49
+    ],
+    "pass": true
+  },
+  {
+    "theme": "studio-grid",
+    "case": "default",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.79
+    ],
+    "text_spans_per_page": [
+      55
+    ],
+    "pass": true
+  },
+  {
+    "theme": "studio-grid",
+    "case": "long",
+    "pages": 4,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.76,
+      0.78,
+      0.78,
+      0.59
+    ],
+    "text_spans_per_page": [
+      53,
+      52,
+      52,
+      39
+    ],
+    "pass": true
+  },
+  {
+    "theme": "studio-grid",
+    "case": "mix",
+    "pages": 2,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.89,
+      0.08
+    ],
+    "text_spans_per_page": [
+      53,
+      1
+    ],
+    "pass": true
+  },
+  {
+    "theme": "product-feature",
+    "case": "default",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.84
+    ],
+    "text_spans_per_page": [
+      45
+    ],
+    "pass": true
+  },
+  {
+    "theme": "product-feature",
+    "case": "long",
+    "pages": 3,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.92,
+      0.92,
+      0.48
+    ],
+    "text_spans_per_page": [
+      73,
+      72,
+      36
+    ],
+    "pass": true
+  },
+  {
+    "theme": "product-feature",
+    "case": "mix",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.84
+    ],
+    "text_spans_per_page": [
+      45
+    ],
+    "pass": true
+  },
+  {
+    "theme": "portfolio-rail",
+    "case": "default",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.82
+    ],
+    "text_spans_per_page": [
+      51
+    ],
+    "pass": true
+  },
+  {
+    "theme": "portfolio-rail",
+    "case": "long",
+    "pages": 4,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.81,
+      0.89,
+      0.89,
+      0.2
+    ],
+    "text_spans_per_page": [
+      46,
+      55,
+      55,
+      11
+    ],
+    "pass": true
+  },
+  {
+    "theme": "portfolio-rail",
+    "case": "mix",
+    "pages": 2,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.85,
+      0.14
+    ],
+    "text_spans_per_page": [
+      49,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "theme": "experience-index",
+    "case": "default",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.85
+    ],
+    "text_spans_per_page": [
+      43
+    ],
+    "pass": true
+  },
+  {
+    "theme": "experience-index",
+    "case": "long",
+    "pages": 4,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.81,
+      0.78,
+      0.78,
+      0.59
+    ],
+    "text_spans_per_page": [
+      52,
+      52,
+      52,
+      39
+    ],
+    "pass": true
+  },
+  {
+    "theme": "experience-index",
+    "case": "mix",
+    "pages": 2,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.86,
+      0.22
+    ],
+    "text_spans_per_page": [
+      41,
+      6
+    ],
+    "pass": true
+  },
+  {
+    "theme": "bold-poster",
+    "case": "default",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.89
+    ],
+    "text_spans_per_page": [
+      48
+    ],
+    "pass": true
+  },
+  {
+    "theme": "bold-poster",
+    "case": "long",
+    "pages": 3,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.91,
+      0.8,
+      0.8
+    ],
+    "text_spans_per_page": [
+      65,
+      65,
+      65
+    ],
+    "pass": true
+  },
+  {
+    "theme": "bold-poster",
+    "case": "mix",
+    "pages": 2,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.87,
+      0.12
+    ],
+    "text_spans_per_page": [
+      45,
+      3
+    ],
+    "pass": true
+  },
+  {
+    "theme": "pop-blocks",
+    "case": "default",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.75
+    ],
+    "text_spans_per_page": [
+      55
+    ],
+    "pass": true
+  },
+  {
+    "theme": "pop-blocks",
+    "case": "long",
+    "pages": 3,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.87,
+      0.82,
+      0.82
+    ],
+    "text_spans_per_page": [
+      67,
+      65,
+      65
+    ],
+    "pass": true
+  },
+  {
+    "theme": "pop-blocks",
+    "case": "mix",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.8
+    ],
+    "text_spans_per_page": [
+      55
+    ],
+    "pass": true
+  },
+  {
+    "theme": "two-track",
+    "case": "default",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.69
+    ],
+    "text_spans_per_page": [
+      50
+    ],
+    "pass": true
+  },
+  {
+    "theme": "two-track",
+    "case": "long",
+    "pages": 3,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.81,
+      0.93,
+      0.63
+    ],
+    "text_spans_per_page": [
+      59,
+      66,
+      44
+    ],
+    "pass": true
+  },
+  {
+    "theme": "two-track",
+    "case": "mix",
+    "pages": 1,
+    "titles_and_name": true,
+    "unique_end_markers": true,
+    "within_page": true,
+    "mobile_no_overflow": true,
+    "desktop_no_overflow": true,
+    "min_extracted_font_pt": 10.0,
+    "page_text_bottom_fraction": [
+      0.83
+    ],
+    "text_spans_per_page": [
+      51
+    ],
+    "pass": true
+  },
+  {
+    "gallery_mixer_and_exports": true
+  }
+]

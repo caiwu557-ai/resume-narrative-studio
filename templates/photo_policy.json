@@ -1,0 +1,24 @@
+{
+  "version": "1.3.0",
+  "profiles": {
+    "cn-formal": {"label": "中国大陆真人阅读正式简历", "default_photo_mode": "header-right", "photo_optional": true, "notes": "在用户明确希望附照片、招聘方要求或当前场景已授权时启用。正式中文简历优先右上身份信息区。"},
+    "creative": {"label": "创意履历或独立作品集", "default_photo_mode": "editorial", "photo_optional": true, "notes": "允许居中、左侧栏、大色块等表达，但不能挤压姓名与联系方式。"},
+    "general": {"label": "尚未确定的真人阅读场景", "default_photo_mode": "editorial", "photo_optional": true, "notes": "先识别国家、渠道与用户偏好；切勿以语言、姓名或头像推断国家。"},
+    "ats": {"label": "机器解析投递", "default_photo_mode": "none", "photo_optional": false, "notes": "自动移除照片和图像，保留经历文本及公开链接。"}
+  },
+  "allowed_modes": ["auto", "header-right", "three-column", "editorial", "none"],
+  "templates": {
+    "ats-clean": {"legacy_slot": "none", "cn_formal_recommendation": "not-applicable", "cn_formal_default": "none", "alternative": []},
+    "formal-split": {"legacy_slot": "identity-right", "cn_formal_recommendation": "good", "cn_formal_default": "header-right", "alternative": ["three-column"], "reason": "三组信息可形成横向组织，但右上独立式优先；三栏依赖联系方式长度。"},
+    "research-ledger": {"legacy_slot": "identity-right", "cn_formal_recommendation": "preferred", "cn_formal_default": "header-right", "alternative": [], "reason": "照片独立于左侧姓名与研究目录，稳定而不挤压正文。"},
+    "ivory-classic": {"legacy_slot": "center-top", "cn_formal_recommendation": "not-recommended-as-is", "cn_formal_default": "header-right", "alternative": ["editorial"], "reason": "居中头像适合人物介绍；正式简历默认将头像右置并让姓名先被识别。"},
+    "book-editorial": {"legacy_slot": "identity-top", "cn_formal_recommendation": "conditional", "cn_formal_default": "header-right", "alternative": ["editorial"], "reason": "左上肖像与姓名可构成自然分组，但更适合编辑式人物档案。"},
+    "studio-grid": {"legacy_slot": "identity-right", "cn_formal_recommendation": "good", "cn_formal_default": "header-right", "alternative": ["three-column"], "reason": "右侧身份信息清晰，但需检测多栏、长邮箱与较长姓名的碰撞。"},
+    "product-feature": {"legacy_slot": "identity-right", "cn_formal_recommendation": "good", "cn_formal_default": "header-right", "alternative": ["three-column"], "reason": "个人信息区可以容纳头像，不夺取核心作品的正文空间。"},
+    "portfolio-rail": {"legacy_slot": "rail-top", "cn_formal_recommendation": "conditional", "cn_formal_default": "header-right", "alternative": ["editorial"], "reason": "左栏内头像适合作品集介绍，但正式简历右上信息效率通常更稳。"},
+    "experience-index": {"legacy_slot": "identity-right", "cn_formal_recommendation": "preferred", "cn_formal_default": "header-right", "alternative": [], "reason": "靠近常见中文简历页眉：左侧身份、右侧照片、正文独立。"},
+    "bold-poster": {"legacy_slot": "identity-right", "cn_formal_recommendation": "conditional", "cn_formal_default": "header-right", "alternative": ["editorial"], "reason": "头像位置恰当，但彩色海报式页眉整体不宜作严肃场景默认选择。"},
+    "pop-blocks": {"legacy_slot": "identity-top", "cn_formal_recommendation": "not-recommended-as-is", "cn_formal_default": "header-right", "alternative": ["editorial"], "reason": "照片在高对比色块内抢夺注意力；正式版改右上独立式，年轻作品集保留原布局。"},
+    "two-track": {"legacy_slot": "identity-right", "cn_formal_recommendation": "good", "cn_formal_default": "header-right", "alternative": ["three-column"], "reason": "三栏身份区合理，但照片与联系方式需留足空间。"}
+  }
+}

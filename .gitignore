@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+# Local previews and analysis output not part of the distributed gallery
+render-qa/
+tests/output/
+*.preflight.json
+# User data (keep private)
+private/
+resume-workspace/private/
+*.local.json
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

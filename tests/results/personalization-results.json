@@ -1,0 +1,342 @@
+{
+  "core": [
+    {
+      "theme": "ats-clean",
+      "optional_fields_media_links_continuation": true
+    },
+    {
+      "theme": "formal-split",
+      "optional_fields_media_links_continuation": true
+    },
+    {
+      "theme": "research-ledger",
+      "optional_fields_media_links_continuation": true
+    },
+    {
+      "theme": "ivory-classic",
+      "optional_fields_media_links_continuation": true
+    },
+    {
+      "theme": "book-editorial",
+      "optional_fields_media_links_continuation": true
+    },
+    {
+      "theme": "studio-grid",
+      "optional_fields_media_links_continuation": true
+    },
+    {
+      "theme": "product-feature",
+      "optional_fields_media_links_continuation": true
+    },
+    {
+      "theme": "portfolio-rail",
+      "optional_fields_media_links_continuation": true
+    },
+    {
+      "theme": "experience-index",
+      "optional_fields_media_links_continuation": true
+    },
+    {
+      "theme": "bold-poster",
+      "optional_fields_media_links_continuation": true
+    },
+    {
+      "theme": "pop-blocks",
+      "optional_fields_media_links_continuation": true
+    },
+    {
+      "theme": "two-track",
+      "optional_fields_media_links_continuation": true
+    }
+  ],
+  "browser": [
+    {
+      "theme": "ats-clean",
+      "case": "media",
+      "pages": 2,
+      "images": 0,
+      "links": 3,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "ats-clean",
+      "case": "sparse",
+      "pages": 1,
+      "images": 0,
+      "links": 0,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "formal-split",
+      "case": "media",
+      "pages": 2,
+      "images": 2,
+      "links": 3,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "formal-split",
+      "case": "sparse",
+      "pages": 1,
+      "images": 0,
+      "links": 0,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "research-ledger",
+      "case": "media",
+      "pages": 2,
+      "images": 2,
+      "links": 3,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "research-ledger",
+      "case": "sparse",
+      "pages": 1,
+      "images": 0,
+      "links": 0,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "ivory-classic",
+      "case": "media",
+      "pages": 2,
+      "images": 2,
+      "links": 3,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "ivory-classic",
+      "case": "sparse",
+      "pages": 1,
+      "images": 0,
+      "links": 0,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "book-editorial",
+      "case": "media",
+      "pages": 2,
+      "images": 2,
+      "links": 3,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "book-editorial",
+      "case": "sparse",
+      "pages": 1,
+      "images": 0,
+      "links": 0,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "studio-grid",
+      "case": "media",
+      "pages": 2,
+      "images": 2,
+      "links": 3,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "studio-grid",
+      "case": "sparse",
+      "pages": 1,
+      "images": 0,
+      "links": 0,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "product-feature",
+      "case": "media",
+      "pages": 2,
+      "images": 2,
+      "links": 3,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "product-feature",
+      "case": "sparse",
+      "pages": 1,
+      "images": 0,
+      "links": 0,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "portfolio-rail",
+      "case": "media",
+      "pages": 2,
+      "images": 2,
+      "links": 3,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "portfolio-rail",
+      "case": "sparse",
+      "pages": 1,
+      "images": 0,
+      "links": 0,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "experience-index",
+      "case": "media",
+      "pages": 2,
+      "images": 2,
+      "links": 3,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "experience-index",
+      "case": "sparse",
+      "pages": 1,
+      "images": 0,
+      "links": 0,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "bold-poster",
+      "case": "media",
+      "pages": 2,
+      "images": 2,
+      "links": 3,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "bold-poster",
+      "case": "sparse",
+      "pages": 1,
+      "images": 0,
+      "links": 0,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "pop-blocks",
+      "case": "media",
+      "pages": 2,
+      "images": 2,
+      "links": 3,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "pop-blocks",
+      "case": "sparse",
+      "pages": 1,
+      "images": 0,
+      "links": 0,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "two-track",
+      "case": "media",
+      "pages": 1,
+      "images": 2,
+      "links": 3,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    },
+    {
+      "theme": "two-track",
+      "case": "sparse",
+      "pages": 1,
+      "images": 0,
+      "links": 0,
+      "mobile": true,
+      "desktop": true,
+      "bounds": true,
+      "retained": true,
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+[
+  {
+    "theme": "ats-clean",
+    "settings": {},
+    "natural_pages": [
+      {
+        "text_spans": 43,
+        "top_fraction": 0.062,
+        "bottom_fraction": 0.878,
+        "extent_fraction": 0.816,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 2,
+        "top_fraction": 0.06,
+        "bottom_fraction": 0.104,
+        "extent_fraction": 0.044,
+        "min_font_pt": 10.5
+      }
+    ],
+    "natural_sparse_pages": [
+      2
+    ],
+    "reflowed": true,
+    "page_groups": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "final_pages": [
+      {
+        "text_spans": 27,
+        "top_fraction": 0.062,
+        "bottom_fraction": 0.499,
+        "extent_fraction": 0.436,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 22,
+        "top_fraction": 0.061,
+        "bottom_fraction": 0.56,
+        "extent_fraction": 0.499,
+        "min_font_pt": 10.0
+      }
+    ],
+    "final_sparse_pages": [],
+    "status": "preflight-ok-after-reflow"
+  },
+  {
+    "theme": "formal-split",
+    "settings": {},
+    "natural_pages": [
+      {
+        "text_spans": 44,
+        "top_fraction": 0.089,
+        "bottom_fraction": 0.921,
+        "extent_fraction": 0.832,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 2,
+        "top_fraction": 0.06,
+        "bottom_fraction": 0.099,
+        "extent_fraction": 0.039,
+        "min_font_pt": 10.5
+      }
+    ],
+    "natural_sparse_pages": [
+      2
+    ],
+    "reflowed": true,
+    "page_groups": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "final_pages": [
+      {
+        "text_spans": 27,
+        "top_fraction": 0.089,
+        "bottom_fraction": 0.438,
+        "extent_fraction": 0.349,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 23,
+        "top_fraction": 0.061,
+        "bottom_fraction": 0.658,
+        "extent_fraction": 0.597,
+        "min_font_pt": 10.0
+      }
+    ],
+    "final_sparse_pages": [],
+    "status": "preflight-ok-after-reflow"
+  },
+  {
+    "theme": "research-ledger",
+    "settings": {},
+    "natural_pages": [
+      {
+        "text_spans": 14,
+        "top_fraction": 0.082,
+        "bottom_fraction": 0.282,
+        "extent_fraction": 0.2,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 40,
+        "top_fraction": 0.059,
+        "bottom_fraction": 0.808,
+        "extent_fraction": 0.749,
+        "min_font_pt": 10.0
+      }
+    ],
+    "natural_sparse_pages": [
+      1
+    ],
+    "reflowed": true,
+    "page_groups": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "final_pages": [
+      {
+        "text_spans": 30,
+        "top_fraction": 0.082,
+        "bottom_fraction": 0.507,
+        "extent_fraction": 0.426,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 28,
+        "top_fraction": 0.061,
+        "bottom_fraction": 0.663,
+        "extent_fraction": 0.602,
+        "min_font_pt": 10.0
+      }
+    ],
+    "final_sparse_pages": [],
+    "status": "preflight-ok-after-reflow"
+  },
+  {
+    "theme": "ivory-classic",
+    "settings": {},
+    "natural_pages": [
+      {
+        "text_spans": 27,
+        "top_fraction": 0.193,
+        "bottom_fraction": 0.633,
+        "extent_fraction": 0.441,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 19,
+        "top_fraction": 0.064,
+        "bottom_fraction": 0.629,
+        "extent_fraction": 0.565,
+        "min_font_pt": 10.0
+      }
+    ],
+    "natural_sparse_pages": [],
+    "reflowed": false,
+    "page_groups": [],
+    "final_pages": [
+      {
+        "text_spans": 27,
+        "top_fraction": 0.193,
+        "bottom_fraction": 0.633,
+        "extent_fraction": 0.441,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 19,
+        "top_fraction": 0.064,
+        "bottom_fraction": 0.629,
+        "extent_fraction": 0.565,
+        "min_font_pt": 10.0
+      }
+    ],
+    "final_sparse_pages": [],
+    "status": "preflight-ok"
+  }
+]

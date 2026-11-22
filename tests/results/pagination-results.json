@@ -1,0 +1,302 @@
+[
+  {
+    "theme": "research-ledger",
+    "settings": {
+      "palette": "forest",
+      "font": "serif",
+      "rhythm": "large",
+      "page": "A4"
+    },
+    "natural_pages": [
+      {
+        "text_spans": 13,
+        "top_fraction": 0.065,
+        "bottom_fraction": 0.231,
+        "extent_fraction": 0.166,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 41,
+        "top_fraction": 0.063,
+        "bottom_fraction": 0.784,
+        "extent_fraction": 0.721,
+        "min_font_pt": 10.0
+      }
+    ],
+    "natural_sparse_pages": [
+      1
+    ],
+    "reflowed": true,
+    "page_groups": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "final_pages": [
+      {
+        "text_spans": 31,
+        "top_fraction": 0.065,
+        "bottom_fraction": 0.526,
+        "extent_fraction": 0.461,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 27,
+        "top_fraction": 0.064,
+        "bottom_fraction": 0.572,
+        "extent_fraction": 0.508,
+        "min_font_pt": 10.0
+      }
+    ],
+    "final_sparse_pages": [],
+    "status": "preflight-ok-after-reflow",
+    "all_section_titles": true,
+    "example_link_preserved": true,
+    "passed": true
+  },
+  {
+    "theme": "studio-grid",
+    "settings": {
+      "palette": "ink",
+      "font": "kai-head",
+      "rhythm": "large",
+      "page": "Letter"
+    },
+    "natural_pages": [
+      {
+        "text_spans": 53,
+        "top_fraction": 0.065,
+        "bottom_fraction": 0.89,
+        "extent_fraction": 0.825,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 1,
+        "top_fraction": 0.069,
+        "bottom_fraction": 0.084,
+        "extent_fraction": 0.015,
+        "min_font_pt": 12.0
+      }
+    ],
+    "natural_sparse_pages": [
+      2
+    ],
+    "reflowed": true,
+    "page_groups": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "final_pages": [
+      {
+        "text_spans": 32,
+        "top_fraction": 0.065,
+        "bottom_fraction": 0.429,
+        "extent_fraction": 0.364,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 26,
+        "top_fraction": 0.066,
+        "bottom_fraction": 0.603,
+        "extent_fraction": 0.537,
+        "min_font_pt": 10.0
+      }
+    ],
+    "final_sparse_pages": [],
+    "status": "preflight-ok-after-reflow",
+    "all_section_titles": true,
+    "example_link_preserved": true,
+    "passed": true
+  },
+  {
+    "theme": "portfolio-rail",
+    "settings": {
+      "palette": "plum",
+      "font": "neutral",
+      "rhythm": "airy",
+      "page": "Letter"
+    },
+    "natural_pages": [
+      {
+        "text_spans": 49,
+        "top_fraction": 0.069,
+        "bottom_fraction": 0.853,
+        "extent_fraction": 0.784,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 3,
+        "top_fraction": 0.069,
+        "bottom_fraction": 0.145,
+        "extent_fraction": 0.076,
+        "min_font_pt": 10.99
+      }
+    ],
+    "natural_sparse_pages": [
+      2
+    ],
+    "reflowed": true,
+    "page_groups": [
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "final_pages": [
+      {
+        "text_spans": 40,
+        "top_fraction": 0.069,
+        "bottom_fraction": 0.573,
+        "extent_fraction": 0.505,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 14,
+        "top_fraction": 0.068,
+        "bottom_fraction": 0.464,
+        "extent_fraction": 0.396,
+        "min_font_pt": 10.0
+      }
+    ],
+    "final_sparse_pages": [],
+    "status": "preflight-ok-after-reflow",
+    "all_section_titles": true,
+    "example_link_preserved": true,
+    "passed": true
+  },
+  {
+    "theme": "experience-index",
+    "settings": {
+      "palette": "steel",
+      "font": "serif-head",
+      "rhythm": "large",
+      "page": "A4"
+    },
+    "natural_pages": [
+      {
+        "text_spans": 41,
+        "top_fraction": 0.065,
+        "bottom_fraction": 0.855,
+        "extent_fraction": 0.79,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 6,
+        "top_fraction": 0.064,
+        "bottom_fraction": 0.217,
+        "extent_fraction": 0.153,
+        "min_font_pt": 10.0
+      }
+    ],
+    "natural_sparse_pages": [
+      2
+    ],
+    "reflowed": true,
+    "page_groups": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "final_pages": [
+      {
+        "text_spans": 29,
+        "top_fraction": 0.065,
+        "bottom_fraction": 0.55,
+        "extent_fraction": 0.485,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 22,
+        "top_fraction": 0.064,
+        "bottom_fraction": 0.602,
+        "extent_fraction": 0.538,
+        "min_font_pt": 10.0
+      }
+    ],
+    "final_sparse_pages": [],
+    "status": "preflight-ok-after-reflow",
+    "all_section_titles": true,
+    "example_link_preserved": true,
+    "passed": true
+  },
+  {
+    "theme": "bold-poster",
+    "settings": {
+      "palette": "cobalt",
+      "font": "serif",
+      "rhythm": "balanced",
+      "page": "Letter"
+    },
+    "natural_pages": [
+      {
+        "text_spans": 45,
+        "top_fraction": 0.086,
+        "bottom_fraction": 0.871,
+        "extent_fraction": 0.785,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 3,
+        "top_fraction": 0.068,
+        "bottom_fraction": 0.115,
+        "extent_fraction": 0.047,
+        "min_font_pt": 10.0
+      }
+    ],
+    "natural_sparse_pages": [
+      2
+    ],
+    "reflowed": true,
+    "page_groups": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "final_pages": [
+      {
+        "text_spans": 28,
+        "top_fraction": 0.086,
+        "bottom_fraction": 0.522,
+        "extent_fraction": 0.437,
+        "min_font_pt": 10.0
+      },
+      {
+        "text_spans": 24,
+        "top_fraction": 0.064,
+        "bottom_fraction": 0.546,
+        "extent_fraction": 0.482,
+        "min_font_pt": 10.0
+      }
+    ],
+    "final_sparse_pages": [],
+    "status": "preflight-ok-after-reflow",
+    "all_section_titles": true,
+    "example_link_preserved": true,
+    "passed": true
+  }
+]

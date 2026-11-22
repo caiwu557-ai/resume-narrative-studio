@@ -1,0 +1,117 @@
+{
+  "name": "林沐",
+  "subtitle": "某大学 · 研究与数字教育（虚构示例）",
+  "target": "申请方向 · 医学教育 / 研究助理",
+  "contact": [
+    "example@example.com",
+    "作品集：example.org"
+  ],
+  "profile": "关注如何将复杂专业知识组织为易理解、可使用的学习资源，持续参与课程研究、项目协作与公众沟通。",
+  "sections": [
+    {
+      "title": "教育背景",
+      "entries": [
+        {
+          "heading": "某大学 · 本科",
+          "meta": "2025—至今",
+          "detail": "参与专业课程与研究方法训练，形成资料梳理、英文阅读和跨学科表达的学习基础。"
+        }
+      ],
+      "placement": "support",
+      "icon": "education"
+    },
+    {
+      "title": "研究经历",
+      "entries": [
+        {
+          "heading": "课程学习路径优化研究",
+          "meta": "学生项目 · 协作成员",
+          "bullets": [
+            "围绕学习反馈开展资料调研，参与梳理研究问题与课程评价方法。",
+            "形成研究思路、访谈提纲和项目汇报材料，为后续课堂讨论提供基础。"
+          ]
+        }
+      ],
+      "icon": "research"
+    },
+    {
+      "title": "代表项目",
+      "entries": [
+        {
+          "heading": "交互式知识学习工具",
+          "meta": "个人主导的练习项目",
+          "bullets": [
+            "针对抽象知识不易复习的问题，组织知识结构、互动练习与学习反馈。",
+            "与协作者持续迭代原型，形成可演示的网页作品。"
+          ],
+          "link": {
+            "label": "演示入口（示例）",
+            "url": "https://example.org"
+          },
+          "media": [
+            {
+              "src": "data:image/png;base64,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",
+              "alt": "虚构项目界面示意",
+              "approved": true,
+              "caption": "界面原型示意（虚构演示）"
+            }
+          ],
+          "links": [
+            {
+              "label": "示例源码",
+              "url": "https://example.org/source"
+            },
+            {
+              "label": "重复链接",
+              "url": "https://example.org"
+            }
+          ]
+        }
+      ],
+      "featured": true,
+      "span": "full",
+      "icon": "portfolio"
+    },
+    {
+      "title": "实践与服务",
+      "entries": [
+        {
+          "heading": "社区健康教育志愿活动",
+          "meta": "2026",
+          "detail": "参与面向居民的医学知识讲解，帮助团队将专业内容转为易懂的表达。"
+        }
+      ]
+    },
+    {
+      "title": "组织与荣誉",
+      "entries": [
+        {
+          "heading": "课程项目小组协调人",
+          "meta": "2026",
+          "detail": "负责团队讨论安排、任务同步与最终汇报文本统筹。"
+        }
+      ],
+      "placement": "support",
+      "icon": "award"
+    },
+    {
+      "title": "未来方向",
+      "entries": [
+        {
+          "detail": "希望持续积累严谨的研究方法与真实项目经验，并将学习所得用于更清晰的专业沟通。"
+        }
+      ]
+    }
+  ],
+  "photo": {
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAF8CAIAAAD6kRHVAAAFJ0lEQVR42u3dwW2rQBSG0XDlKmmALrygCxqgKLZQSJZZWIqcKGEG/nPWbxFm5uOOE8lvOPbtA2inLAGIEEQIiBBECIgQRAiIEEQIiBBECIgQRAiIEEQIiBBECIgQRAiIEEQIiBBECIgQRAiIEEQIiBBECIgQRAiIEEQIiBBECIgQRAiIEEQIiBBECIgQRAiIEEQIiBBECIgQRAh872EJLuS5rO//43kardglDMe+WYV7VKdJEdJje2oUIb20p0YR0lF+UhQh7dtTYz/8iUKBnf48JiG5x91IFKH8pOg6ivue26kIFehndh3FUXY1NQkV6ClEiLOrQxE6tZ5IhDivOhShk+rpRIgzqkMROp2eVIQ4lzoUIYgQY8FTi9BZ9OwixCm0AiIEEWIIWAcRggjx+rcaInTmrIkIARGCCN27sDIiBBF62WN9RAgiBETormWVRAiIEEToloW1EiGIEBAhiBAQ4R/zmwYrJkIQISBCECEgQhAhIEIQISBCECEgQhAhIEIQISDCE8zTaBGsmAhBhIAIQYSACBvxmwZrJUIQISBCtyyrJEJAhCBCdy2sjwhBhF72WBkRgggBEbp3WRMROnNYDRGCCL3+rQMiBBEaAlYAETqFnl2EzqKnRoQgQsPQ8yJC59KTilCHnhEROqOeToQ69FyI0Hn1RCLUoWdBhM6up+jccOybVTjBc1nlh0noNCtQhDr00+I66moqPxHSb4rycx11O/XzmITkTUXtiZBmKcpPhLSpUXsipE2N2hMhZzepOhECb/EnChAhiBAQIYgQECGIEBAhiBAQIYgQECGIEBAhiBAQIYgQECGIEBAhiBD4Jw9L8AsX/R8/z+GrFn/KVx6qTpMiFJ4gRWgVhCdIEcpPiiLUHmoUofzITDExQvlJUYTyQ4pfSoHYL5PQdhI9EkuB2EGT0OYRPRJLgdhTEdotonf2btdR+bmamoQKxF6nRqhAHYrQfmDfUyNUoA5FaA9wBlIjVCA3OAll3dGhCBVI9Knw5b8gQmOQ7LNRVhkdilCBRJ8TnwlBhMYg2aelrCk6FCG4jnqlYRiKUIHEnh/XURChMUj2KTIJQYTGINlnySQEERqDZJ8okxBECCJ0c8CNVIRgEnpdYRiKEExCQIQgQld2fCw0CcEkBEQIInRZx8dCkxBMQkCEIEIgJ0K/lSHzvJmEIEIQISBCECEgQhAhIEIQISBCECEgQhAhIEIQISBCECEgQhAhIEIQISBCECEgQhAhIEIQISBCECEgQhAhIEIQISBCECEgQhAhIEIQISBCECEgQhAhIEIQISBCECEgQhAhIEIQISBCECEgQhAhIEIQISBCECEgQhAh0F+E8zTaDwLPm0kIIgQRAiIEEfqsTJKuTppJCCIEEQIi9LGQ3DNmEoIIQYSACH0sJPd0mYQgQsOQ7HNlEoIIQYRuDriLihBMQq8ujEERgknoBYYxKEIwCb3GMAZFqEOyTo7rKIjQMCT7zJQ1RYEiBNdRrzeMQRHqkNgTUlYZBYoQfCb0wsMYFKEOiT0PZd1RoAh1SPQZKHuA3RehnSB638t+YMdFaFeI3uvh2Lf77dBzWR1T+ZmE9gk7GxyhDu2p66irKfKLn4RGoh00CY1E5GcSGon2yyQ0EpGfCKUoPxFKEfmJUI3aE6EUkZ8IBSk8EQpSeIhQk6oTIfDCl/+CCEGEgAhBhIAIQYSACEGEgAhBhIAIQYSACEGEgAhBhIAIQYSACEGEgAhBhIAIQYSACEGEgAjhPj4BgGEMu8jfqO4AAAAASUVORK5CYII=",
+    "alt": "虚构头像示意",
+    "approved": true
+  },
+  "links": [
+    {
+      "label": "示例作品主页",
+      "url": "https://example.org/portfolio"
+    }
+  ]
+}

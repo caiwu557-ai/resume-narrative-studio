@@ -11,7 +11,7 @@
 <br/>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-435A65?style=flat-square)](LICENSE)
-![Version](https://img.shields.io/badge/Version-v1.3.0-2D746D?style=flat-square)
+![Version](https://img.shields.io/badge/Version-v1.4.0-2D746D?style=flat-square)
 ![Layouts](https://img.shields.io/badge/Layouts-12-D99466?style=flat-square)
 ![Palettes](https://img.shields.io/badge/Palettes-12-E8BC5A?style=flat-square)
 ![Built for](https://img.shields.io/badge/Built%20for-Humans%20%2B%20Agents-7173A5?style=flat-square)
@@ -262,3 +262,10 @@ resume-narrative-studio/
 **[⬆ 回到顶部](#resume-narrative-studio)**
 
 </div>
+
+
+## v1.4.0｜Revision reliability
+- Cross-version constraint snapshots and regression receipts: `references/20-revision-continuity.md`, `scripts/revision_contract.py`.
+- Evidence mining, academic application adapter: `references/21-evidence-mining-and-academic.md`.
+- Semantic hierarchy, same-source delivery diagnostics: `references/22-semantic-hierarchy-and-delivery.md`, `scripts/inspect_delivery.py` (PDF requires PyMuPDF).
+- Existing v1.3 templates, tokens, photo policy and CLI are retained. See `V14_UPGRADE.md` for scope and test limitations.

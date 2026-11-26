@@ -21,3 +21,8 @@ jobs:
         run: python tests/test_skill_package.py
       - name: Photo policy checks (static)
         run: python tests/test_photo_policy_v13.py
+
+      - name: Revision contract checks
+        run: python tests/test_revision_contract_v14.py
+      - name: Delivery inspection checks (PDF case optional)
+        run: python tests/test_delivery_inspection_v14.py

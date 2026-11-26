@@ -3,7 +3,7 @@ name: resume-narrative-studio
 description: Use when a user wants to create, revise, tailor, audit, or visually design a resume/CV/academic profile or portfolio from conversations, raw notes, uploaded files, source records, and iterative human feedback; especially when the user wants guided interviews, audience-specific storytelling, evidence checks, and multiple review stages.
 ---
 
-# Resume Narrative Studio · 人机共创简历工作流 v1.3.0
+# Resume Narrative Studio · 人机共创简历工作流 v1.4.0
 
 **本 Skill 的产品是「帮助用户作出更好的展示判断」的多轮过程，以及由此生成的可靠简历。** 无法从一次填表替代人的自我判断。不得把本 Skill 简化成一条提示词或「上传文件直接生成最终版」。
 
@@ -22,6 +22,15 @@ description: Use when a user wants to create, revise, tailor, audit, or visually
 - 用户给了许多散乱文件：先列出已获得的材料类型、可提炼内容与缺口，再问最影响结果的一个问题；不要一次抛几十个问题或强制用户填长表。
 - 用户只要求局部修订：先完成局部修订，但检查修改是否破坏整份叙事和分页；必要时解释牵连范围。
 - 用户要求多轮共创：按下面全部阶段推进，**每轮只交付当前阶段所需的决定**，用户可要求跳转/暂定。
+
+## v1.4 稳定生产与跨版本回归（强制入口）
+
+**每轮先锁定事实、约束与样式三层状态，再改稿；交付前对当前成品逐项回归。** 对已明确的历史决定直接继承，不增加访谈轮次。没有独立审稿能力时记录 self-review-only。
+
+- 阶段0/7及每次修改：读取 `references/20-revision-continuity.md`，维护 `templates/revision_state.json` 的独立前后快照、变更授权和新版验收凭据；旧约束不能静默删除。运行 `scripts/revision_contract.py`。
+- 阶段1–5：读取 `references/21-evidence-mining-and-academic.md`。按能力信号检索原件，旧简历不作独立证据；记录冲突及访问范围；以目标相关性而非开源状态选项目；导师参考优先学习结构不照搬资历。
+- 阶段4/6/7：读取 `references/22-semantic-hierarchy-and-delivery.md`。建立 H0–H3 样式与 emphasis map，独立核查同类角色、成绩、奖项；真实分页与字号诊断，不因严格单页降低09保护线。使用 `scripts/inspect_delivery.py` 检查实际成品；同源 DOCX/PDF 按需求交付，未授权不扩张载体。
+- 任一锁定约束 FAIL/NOT_RUN、关键事实冲突、实际页面未核、必要链接/正文遗漏均不得标正式通过。技术通过、用户认可与外发批准独立记录。诊断脚本不能代替人工语义和视觉审查。
 
 ## v1.2 个性化必读入口（不增加固定访谈轮次）
 
@@ -44,8 +53,8 @@ description: Use when a user wants to create, revise, tailor, audit, or visually
 | 3 受众与个人叙事 | 形成2–3种候选个人定位、3项核心能力信号和优先经历 | **选择/否定/改写**定位与强调点 | `POSITIONING.md`；**战略审批关口** |
 | 4 信息架构 | 给2种候选目录结构，解释前置/合并/拆分/删除、页数和桥接逻辑 | 选择结构、调整标题和次序；确认照片/特殊模块 | `OUTLINE.md`；**结构审批关口** |
 | 5 文案编译 | 从素材→主张→证据→简历句，重写段落；关键经历给2种语气选项 | 挑选更自然、更打动目标读者的表达，补充遗漏 | `COPY_DRAFT.md` + 私有 `CLAIM_LEDGER`；**文案审批** |
-| 6 视觉与排版 | 按场景推荐3种实际不同的结构（必要时含 ATS 基线）；先共用令牌对比，再混搭配色/字体/节奏；真实分页检查 | 选模板、反馈密度、层级、空白、照片、图标 | 可编辑稿 + PDF/HTML；**视觉审批** |
-| 7 对抗审计与交付 | 逐句核查事实、贡献归属、阅读体验、格式和链接；依据反馈返工；输出两种用途版本 | 最终确认真实性、联系方式和可共享范围 | 正式成品、来源对照、修改记录；**交付审批** |
+| 6 视觉与排版 | 首次全局设计按场景推荐至多3种实际不同的结构（必要时含 ATS 基线）；局部修订沿用确认结构；先共用令牌对比，再混搭配色/字体/节奏；真实分页检查 | 选模板、反馈密度、层级、空白、照片、图标 | 可编辑稿 + PDF/HTML；**视觉审批** |
+| 7 对抗审计与交付 | 逐句核查事实、贡献归属、阅读体验、格式和链接；依据反馈返工；仅按场景输出所需版本 | 最终确认真实性、联系方式和可共享范围 | 正式成品、来源对照、修改记录；**交付审批** |
 
 **关口不是强迫式问卷**：已经明确授权/决定则直接继承；用户说“先出草稿”可带暂定标签继续，但在公开发布、外部发送、覆盖文件、安装部署前仍须明确确认。不要擅自联网发布或上传含个人信息的文件。
 
@@ -112,6 +121,6 @@ python tests/test_photo_policy_v13.py --browser
 
 ## 最终交接文件
 
-`MASTER_INVENTORY`（私有）、`CLAIM_LEDGER`（私有）、`POSITIONING`、`OUTLINE`、`COPY_DRAFT`、简历正式版（可编辑+阅读）、必要时 ATS 版、`FEEDBACK_LOG`、`CHANGELOG`、`personalization_contract`、`REVIEW_RECEIPTS`（私有，注明独立/自审状态）。仅**对外成品**交给目标读者；其余材料只给用户。
+`MASTER_INVENTORY`（私有）、`CLAIM_LEDGER`（私有）、`POSITIONING`、`OUTLINE`、`COPY_DRAFT`、简历正式版（可编辑+阅读）、必要时 ATS 版、`FEEDBACK_LOG`、`CHANGELOG`、`personalization_contract`、`REVIEW_RECEIPTS`（私有，注明独立/自审状态）、`revision_state` 前后快照/变更授权/回归凭据、`emphasis map`、实际交付诊断（私有）。仅**对外成品**交给目标读者；其余材料只给用户。
 
 > 记住：用户不是数据填报员，是身份与价值的最终编辑。Agent 也不只是润色器，而是研究、编辑、排版和审查的执行者。

@@ -1,0 +1,12 @@
+{
+  "job_id": null,
+  "source_version": null,
+  "candidate_version": null,
+  "constraints": [],
+  "constraint_fields": ["id", "scope", "rule", "status", "source", "check_method", "target_artifact"],
+  "status_options": ["locked", "tentative", "delegated", "retired", "rejected"],
+  "changes_fields": ["id", "before", "after", "authorization"],
+  "receipt_fields": ["id", "status", "evidence", "artifact_version", "reviewer"],
+  "receipt_status_options": ["PASS", "FAIL", "NA", "NOT_RUN"],
+  "note": "Use separate prior/current snapshots and change/receipt arrays. A locked constraint requires PASS; retire via explicit authorization, never silently delete. Store privately."
+}

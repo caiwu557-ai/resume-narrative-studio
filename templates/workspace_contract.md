@@ -84,3 +84,7 @@ C001,示例事实,source://example,D,本人,完整项目,verified,研究经历,�
 
 ## v1.2 持续状态扩展
 `personalization_contract.json` 记录受众、语言、渠道、素材授权、锁定范围、用户委托和审核状态；每个问题须记录能改变哪项交付。保存并沿用用户批准的 `approved_design`；不得因颜色或图片反馈重置结构。`REVIEW_RECEIPTS` 记录实际独立子代理审稿凭据或 self-review-only 降级。
+
+
+## v1.4 回归状态
+按 `references/20-revision-continuity.md` 保存 `revision_state`（前后快照、变更授权、验收凭据）、`emphasis map` 与 `delivery-audit`。原始事实记录补充 source_kind、inspection_scope、stage、conflicts、next_verification。不要将 FEEDBACK_LOG 当当前有效规则清单。
